@@ -12,3 +12,5 @@ Code notes from the course Testing Ruby with RSpec: The Complete Guide
 - One liner syntax
 - Shared examples with include_examples
 - Shared contex with include_context
+- Not to method
+- Equality matchers
