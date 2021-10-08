@@ -16,3 +16,4 @@ Code notes from the course Testing Ruby with RSpec: The Complete Guide
 - Equality matchers
 - Comparison matchers
 - Predicate method
+- All matcher
