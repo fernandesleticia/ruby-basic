@@ -22,3 +22,4 @@ Code notes from the course Testing Ruby with RSpec: The Complete Guide
 - Contain Exactly matcher
 - Start with and End with matchers
 - Have attributes matcher
+- Include matcher
