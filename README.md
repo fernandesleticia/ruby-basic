@@ -18,3 +18,4 @@ Code notes from the course Testing Ruby with RSpec: The Complete Guide
 - Predicate method
 - All matcher
 - Be matcher
+- Change Matcher
