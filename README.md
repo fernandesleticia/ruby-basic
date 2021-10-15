@@ -19,3 +19,4 @@ Code notes from the course Testing Ruby with RSpec: The Complete Guide
 - All matcher
 - Be matcher
 - Change Matcher
+- Contain Exactly matcher
