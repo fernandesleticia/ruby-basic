@@ -1,7 +1,7 @@
-### About
+#### About
 Code notes from the course Testing Ruby with RSpec: The Complete Guide
 
-### Content
+#### Content
 - The context method
 - Before and after hooks
 - Nested hooks
@@ -23,3 +23,4 @@ Code notes from the course Testing Ruby with RSpec: The Complete Guide
 - Start with and End with matchers
 - Have attributes matcher
 - Include matcher
+- Raise error matcher
