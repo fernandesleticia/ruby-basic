@@ -24,3 +24,4 @@ Code notes from the course Testing Ruby with RSpec: The Complete Guide
 - Have attributes matcher
 - Include matcher
 - Raise error matcher
+- Respond to matcher
