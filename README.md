@@ -26,3 +26,4 @@ Code notes from the course Testing Ruby with RSpec: The Complete Guide
 - Raise error matcher
 - Respond to matcher
 - Satisfy matcher
+- Not to method
