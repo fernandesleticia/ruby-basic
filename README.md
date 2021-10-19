@@ -25,3 +25,4 @@ Code notes from the course Testing Ruby with RSpec: The Complete Guide
 - Include matcher
 - Raise error matcher
 - Respond to matcher
+- Satisfy matcher
