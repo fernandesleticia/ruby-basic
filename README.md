@@ -28,3 +28,4 @@ Code notes from the course Testing Ruby with RSpec: The Complete Guide
 - Satisfy matcher
 - Not to method
 - Compound expectations
+- Double
