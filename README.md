@@ -29,3 +29,4 @@ Code notes from the course Testing Ruby with RSpec: The Complete Guide
 - Not to method
 - Compound expectations
 - Double
+- Allow method
