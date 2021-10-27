@@ -31,3 +31,4 @@ Code notes from the course Testing Ruby with RSpec: The Complete Guide
 - Double
 - Allow method
 - Matching arguments
+- Instance Doubles
