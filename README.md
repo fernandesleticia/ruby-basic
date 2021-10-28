@@ -33,3 +33,4 @@ Code notes from the course Testing Ruby with RSpec: The Complete Guide
 - Matching arguments
 - Instance Doubles
 - Class double
+- Spies
