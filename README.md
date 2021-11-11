@@ -1,7 +1,10 @@
 #### About
-Code notes from the course Testing Ruby with RSpec: The Complete Guide
+Ruby/Rails basic stuff
 
 #### Content
+##### Code notes from The Complete Ruby on Rails Developer Course
+- Using bcrypt (requires bxrypt gem (https://github.com/bcrypt-ruby/bcrypt-ruby))
+##### Code notes from the course Testing Ruby with RSpec: The Complete Guide
 - The context method
 - Before and after hooks
 - Nested hooks
