@@ -1,6 +1,34 @@
-require 'bcrypt'
+module UsingBcrypt
+    require 'bcrypt'
 
-my_password = BCrypt::Password.create('my password')
-#"$2a$12$EtPElH68ITAaU6Sw5E9hde1hyrcnbAluL7tW29oNZeBafH1Mg.uja"
+    def self.create_hash_digest(password)
+        BCrypt::Password.create(password)
+    end
 
-#my_password = BCrypt::Password.new('$2a$12$K0ByB.6YI2/OYrB4fQOYLe6Tv0datUVf6VZ/2Jzwm879BW5K1cHey')
+    def verify_hash_digest(password)
+        BCrypt::Password.new(password)
+    end
+
+    def self.create_secure_users(users)
+        users.each do |user|
+            user[:password] = create_hash_digest(user[:password])
+        end
+
+        users
+    end
+
+    #users_with_digest = create_secure_users(users)
+
+    def authenticate_user(username, password, list_of_users)
+        list_of_users.each do |user|
+            if user[:username] == username && 
+                verify_hash_digest(user[:password]) == password
+                return user
+            end
+        end
+        'Credentails were not correct'
+    end
+
+    #puts authenticate_user('let', '123', users_with_digest)
+
+end
