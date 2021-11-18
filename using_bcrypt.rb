@@ -1,7 +1,7 @@
 module UsingBcrypt
     require 'bcrypt'
 
-    def self.create_hash_digest(password)
+    def create_hash_digest(password)
         BCrypt::Password.create(password)
     end
 
@@ -9,7 +9,7 @@ module UsingBcrypt
         BCrypt::Password.new(password)
     end
 
-    def self.create_secure_users(users)
+    def create_secure_users(users)
         users.each do |user|
             user[:password] = create_hash_digest(user[:password])
         end
