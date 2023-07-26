@@ -1,10 +1,10 @@
-#### About
+### About
 Ruby/Rails basic stuff
 
-#### Content
-##### Code notes from The Complete Ruby on Rails Developer Course
+### Content you can find here
+#### API authentication
 - Using bcrypt (requires bxrypt gem (https://github.com/bcrypt-ruby/bcrypt-ruby))
-##### Code notes from the course Testing Ruby with RSpec: The Complete Guide
+#### RSpec
 - The context method
 - Before and after hooks
 - Nested hooks
